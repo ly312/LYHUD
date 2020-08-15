@@ -34,14 +34,12 @@ dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), di
 
 LYHUD is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
+```
 
-
+```ruby
 pod 'LYHUD'
 ```
 
-## Author
-
-2554338284@qq.com, 2554338284@qq.com
 
 ## License
 
