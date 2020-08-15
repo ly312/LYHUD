@@ -1,0 +1,22 @@
+{
+  "name": "LYHUD",
+  "version": "0.0.1",
+  "summary": "对HUD简单封装.",
+  "description": "#import <LYHUD/LYHUD.h>\n例子1：\n[LYHUD message:@\"HUD提示单纯\" view:self.view];\n\n例子2：\n[LYHUD message:@\"提示后有处理\" view:self.view complete:^{\n    NSLog(@\"处理block\");\n}];\n\n#import <LYHUDManager.h>\n例子3：\nLYHUDManager *hud = [LYHUDManager showWithView:self.view text:@\"\" animated:YES];\n\ndispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(5 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{\n    [hud dismiss:YES];\n});",
+  "homepage": "https://github.com/ly312/LYHUD",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "2554338284@qq.com": "2554338284@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/ly312/LYHUD.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LYHUD/Classes/**/*"
+}

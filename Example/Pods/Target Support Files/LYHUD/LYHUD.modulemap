@@ -1,0 +1,6 @@
+framework module LYHUD {
+  umbrella header "LYHUD-umbrella.h"
+
+  export *
+  module * { export * }
+}

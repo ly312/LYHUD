@@ -1,0 +1,6 @@
+framework module Pods_LYHUD_Example {
+  umbrella header "Pods-LYHUD_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
